@@ -168,79 +168,112 @@ h1 {
 .white_b > h3 {
   margin-left: 20px;
 }
-/*---------------Right column 2-----------*/
-.main_col2 {
-  display: flex;
-  margin-left: 15px;
-  margin-top: 0px;
+
+/*---------------Connection Request-----------*/
+/*---------------columns-----------*/
+/*---------------top-----------*/
+.rightcolumn{
+  margin-left: 40px;
 }
-.col-2 {
-  background-color: aqua;
-  width: 310px;
-  height: 650px;
-}
-/*---------------Right column 2-----------*/
-.main_col2 {
-  display: flex;
-}
-.connections {
+.top_right{
+  width: 400px;
+  height: 300px;
   border: 5px solid grey;
-  /* background-color: blueviolet; */
-  height: 250px;
-  width: 300px;
 }
-/*---------------2nd column top header-----------*/
-.black {
+/*---------------bottom-----------*/
+.bottom_right {
+  margin-top: 8%;
+  width: 400px;
+  height: 400px;
+  border: 5px solid grey;
+}
+/*---------------headers-----------*/
+.top_head,
+.bottom_head {
   display: flex;
-  justify-content: left;
+  width: auto;
+  height: 10px;
   background-color: black;
-  width: 300px;
+  padding: 20px 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top_head>p,
+.bottom_head>p {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.con-circle {
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 10px;
+  background-color: lightgray;
+  color: #2C3333;
+  font-size: 25px;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+.con-circle2 {
+  border-radius: 70%;
+  width: 100px;
+  height: 40px;
+  background-color: lightgray;
+  color: #2C3333;
+  font-size: 25px;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+}
+
+.people>img {
+  border-radius: 50%;
+  background-color: white;
+  
+  margin: 10px 20px;
+  width: 70px;
   height: 70px;
 }
-/*---------------2 with circle-----------*/
-.black > p {
-  padding: 5px;
-  margin-top: 20px;
-  margin-left: 30px;
-  height: 20px;
-  width: 20px;
-  display: flex;
-  justify-content: center;
-  color: white;
-  border-radius: 50%;
-  background-color: gray;
+
+.people>div {
+  width: auto;
+  margin-left: 80px;
 }
-/*---------------Connection Request-----------*/
-.con {
-  margin-top: 25px;
-  margin-left: 35px;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  color: white;
+
+
+.sideimg {
+  width: 50px;
+  height: 50px;
 }
-/*---------------body for images-----------*/
-.white_3 {
-  background-color: white;
-  display: flex;
-  justify-content: left;
-  height: 180px;
+
+.sideimg2 {
+  width: 50px;
+  height: 50px;
 }
-/*---------------names right column top-----------*/
-.Phil > h1 {
-  font-size: 30px;
-  color: black;
-  margin-top: 30px;
-  margin-left: 100px;
+
+.people>p {
+  font-weight: bold;
+  font-size: 25px;
 }
-.picturecolumn {
-  display: flex;
+
+.view {
+  width: 400px;
+  height: 40px;
+  border-top: 5px solid grey;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+
 }
-.pfp2 {
-  height: 60px;
-  border-radius: 50%;
-  background-color: white;
-  padding: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
+
